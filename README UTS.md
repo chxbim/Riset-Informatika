@@ -4,7 +4,7 @@ Dokumen ini memuat bahan UTS Riset Informatika: rancangan game, penelitian terda
 
 ## 1. Ringkasan
 
-Penelitian ini mengembangkan game edukasi 2D single player di Roblox Studio untuk membantu anak sekolah minggu mempelajari tokoh Simon Petrus. Game memiliki satu level utama untuk semua pemain dan satu level tambahan yang berbeda untuk dua kelompok usia (Pratama 7-9 tahun dan Remaja 12 tahun ke atas), dengan perbedaan bahasa narasi, jumlah kata, dan durasi bermain. Pengembangan memakai metode Game Development Life Cycle (GDLC). Evaluasi mencakup fungsionalitas (black box), kelayakan isi (validasi pendeta/pembimbing sekolah minggu), usability (SUS atau UEQ), dan peningkatan pemahaman anak (pre-test, post-test, N-Gain).
+Penelitian ini mengembangkan game edukasi 2D single player di Roblox Studio untuk membantu anak sekolah minggu mempelajari tokoh Simon Petrus. Game memiliki satu level utama untuk semua pemain dan satu level tambahan yang berbeda untuk dua kelompok usia (Pratama 7-10 tahun dan Remaja 12 tahun ke atas), dengan perbedaan bahasa narasi, jumlah kata, dan durasi bermain. Pengembangan memakai metode Game Development Life Cycle (GDLC). Evaluasi mencakup fungsionalitas (black box), kelayakan isi (validasi pendeta/pembimbing sekolah minggu), usability (SUS atau UEQ), dan peningkatan pemahaman anak (pre-test, post-test, N-Gain).
 
 ## 2. Rancangan Game
 
@@ -13,9 +13,9 @@ Penelitian ini mengembangkan game edukasi 2D single player di Roblox Studio untu
 | Aspek | Keterangan |
 |-------|------------|
 | Platform | Roblox Studio (bahasa Lua) |
-| Tampilan | 2D (antarmuka/UI dan sudut pandang samping) |
+| Tampilan | 2D (antarmuka/UI dan top-down POV) |
 | Mode | Single player |
-| Sasaran | Anak sekolah minggu, kelompok Pratama (7-9 tahun) dan Remaja (12 tahun ke atas) |
+| Sasaran | Anak sekolah minggu, kelompok Pratama (7-10 tahun) dan Remaja (12 tahun ke atas) |
 | Metode pengembangan | GDLC (initiation, pre-production, production, testing, beta, release) |
 | Validasi isi | Pendeta dan/atau pembimbing sekolah minggu |
 
@@ -44,7 +44,7 @@ Dasar diferensiasi: anak usia 7-11 tahun berada pada tahap operasional konkret d
 
 ## 3. Latar Belakang dan Urgensi
 
-1. Pendidikan iman anak di sekolah minggu menghadapi kendala berulang: guru kesulitan menjaga minat anak dan kekurangan media peraga yang menarik.
+1. Pendidikan iman anak di sekolah minggu menghadapi kendala berulang: guru kesulitan menjaga minat anak dan kekurangan variasi media penyampai yang menarik.
 2. Banyak penelitian game sekolah minggu berhenti pada rancang bangun dan uji kelayakan. Penelitian yang mengukur peningkatan pemahaman anak secara statistik masih sedikit dan berskala kecil.
 3. Meta-analisis internasional menunjukkan game digital efektif untuk belajar, dan desain game (termasuk narasi) memengaruhi besar efeknya.
 4. Roblox sudah dipakai untuk game edukasi anak pada mata pelajaran umum, tetapi penggunaannya untuk pembelajaran tokoh Alkitab belum ditemukan dalam literatur yang ditelaah.
@@ -125,7 +125,7 @@ Perbandingan N-Gain antarkelompok bersifat eksploratif karena instrumen dan ukur
 | Efektivitas belajar | Pre-test/post-test per kelompok usia, N-Gain, uji-t berpasangan (atau Wilcoxon bila data tidak normal), effect size | Anak sekolah minggu | Petra memakai uji-t; meta-analisis melaporkan effect size |
 | Variabel pengiring | Jumlah kata narasi dan playtime per kelompok | Log game | Narasi tambahan memperpanjang waktu bermain tanpa mengurangi pembelajaran (lihat 4.2) |
 
-Soal inti untuk level utama dibuat paralel pada kedua kelompok dengan bahasa yang disesuaikan usia, ditambah soal khusus untuk level tambahan masing-masing kelompok.
+Soal inti untuk level utama dibuat paralel pada kedua kelompok dengan narasi yang disesuaikan usia, ditambah soal lanjutan untuk level tambahan masing-masing kelompok.
 
 Ukuran sampel kemungkinan kecil dan terbagi dua kelompok. Studi sejenis memakai sampel 10 anak (Jejak Anbiya'; game Roblox JATI), tetapi hasil per kelompok dianalisis dengan hati-hati dan dilaporkan sebagai keterbatasan.
 
@@ -146,13 +146,12 @@ Perlindungan data anak: kode peserta (P01, P02, ...) tanpa nama, foto, atau kont
 ## 9. Keterbatasan
 
 - Peserta berasal dari satu atau sedikit gereja dalam jumlah kecil, sehingga hasil tidak dapat digeneralisasi.
-- Kelompok usia 10-11 tahun berada di luar cakupan penelitian.
 - Perbandingan antarkelompok usia bersifat eksploratif.
 - Akses dan kebijakan akun Roblox bagi anak perlu disiapkan, termasuk rencana cadangan perangkat uji.
 
 ## 10. Research Mind Map
 
-<!-- Sisipkan gambar mind map di sini, contoh: ![Research Mind Map](research-mind-map.png) -->
+Tersedia di dalam folder main/UTS.
 
 ## 11. Referensi
 
