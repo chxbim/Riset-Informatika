@@ -1,6 +1,6 @@
 # Pengembangan Game Edukasi 2D Berbasis Roblox Studio sebagai Media Pembelajaran Tokoh Alkitab Simon Petrus untuk Anak Sekolah Minggu
 
-Dokumen ini memuat bahan UTS Riset Informatika: rancangan game, penelitian terdahulu, research gap, pertanyaan riset, rencana evaluation metric, dan rencana dataset.
+README ini memuat dan merangkum UTS Riset Informatika: rancangan game, penelitian terdahulu, research gap, pertanyaan riset, rencana evaluation metric, dan rencana dataset.
 
 ## 1. Ringkasan
 
